@@ -1,12 +1,7 @@
-import DemoComponent from "./DemoComponent";
-
+import Card from "./Component/Card";
 
 function App() {
-  return (
-    <div>
-   <DemoComponent />
-    </div>
-  );
+  return <Card />;
 }
 
 export default App;
